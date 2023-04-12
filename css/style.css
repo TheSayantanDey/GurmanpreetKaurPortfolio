@@ -30,12 +30,12 @@ body{
     justify-content: space-between;
     margin-right: 2rem;
 }
-#particals-js{
+/* #particles-js{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-}
+} */
 .navbar{
     height: 10vh;
     display: flex;
@@ -205,10 +205,10 @@ body{
 }
 .myImage{
     margin-top: 10vh;
+    margin-left: 8rem;
     width: 25vw;
     height: 90%;
     border-radius: 63% 37% 84% 16% / 29% 14% 86% 71%  ;
-    margin-left: 8rem;
 }
 .img{
     margin-top: 3rem;

@@ -1,6 +1,6 @@
 @media only screen and (max-width: 900px) {
     html{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     body {
         /* background-color: lightblue; */
@@ -8,13 +8,6 @@
     #navbar{
         /* width: 100%; */
         flex-wrap: wrap;
-    }
-    .logo{
-        position: absolute;
-        left: 0px;
-    }
-    .logo img{
-        width: 35px;
     }
     .hamburger{
         display: block;
@@ -41,14 +34,30 @@
         display: none;
     }
     #home{
-        background-image: url('./images/bg2.jpg') no-repeat center center;
-        min-height: 90vh;
-        
+        padding: 20px;
+        position:static;
+        min-height: 70%;
+        margin-left: 8rem;
+        margin-right: 0;
+    }
+    #particles-js{
+        display: none;
     }
     .homeContainer{
-        width: 100%;
+        width: 90%;
         flex-direction: column;
         align-items: center;
+    }
+    #nameLine , #name{
+        font-size: 1.5rem;
+        word-spacing: 2px;
+        margin:0 0 2rem 0;
+        padding: 5px;
+    }
+    #aboutLine{
+        /* margin-left: 40px; */
+        font-size: 0.9rem;
+        padding: 10px;
     }
     .myImage{
         display: none;
@@ -56,12 +65,19 @@
     #about{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .aboutMe , .skillSet{
         width: 90vw;
     }
     .aboutMeHeading::after , .skillSetHeading::after{
         display: none;
+    }
+    #project{
+        margin-top: 3rem;
+    }
+    .allProject{
+        margin: 0;
     }
     .contactContent{
         flex-direction: column;
